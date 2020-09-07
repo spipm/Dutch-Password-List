@@ -35,6 +35,7 @@ Spip's custom Dutch wordlists! It includes:
 
 #### Password complexity regex
 `grep -Poa "((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@<=>~{|}^_\`?@\[\\]*+,-./:;&'\(\) \!\"#$%]).{8,})"`
+
 From https://stackoverflow.com/questions/23699919/regular-expression-for-password-complexity
 
 
