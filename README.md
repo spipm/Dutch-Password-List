@@ -9,7 +9,7 @@ Spip's custom Dutch wordlists! It includes:
 ### Sources
 
 | Thing        | Link           |
-| ------------- |-------------:|
+| ------------- |-------------|
 | Twitter | See script |
 | Wikipedia | https://wiki.kiwix.org/wiki/Content_in_all_languages |
 | First names | http://www.naamkunde.net/?page_id=293 |
