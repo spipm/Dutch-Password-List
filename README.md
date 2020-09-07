@@ -52,6 +52,9 @@ https://stackoverflow.com/questions/23699919/regular-expression-for-password-com
 
 ### Todo
 
+* Create markov chains for passphrases
+* Make list of populair sentences (quotes, etc)
+
 **Populaire citaten**
 
 http://www.citaten.nl/populaireauteurs.php
