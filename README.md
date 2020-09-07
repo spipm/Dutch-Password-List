@@ -44,7 +44,7 @@ From https://stackoverflow.com/questions/23699919/regular-expression-for-passwor
 * Make list of populair sentences (quotes, etc)
 
 | Thing        | Link           |
-| ------------- |-------------:|
+| ------------- |-------------|
 | Populaire citaten | http://www.citaten.nl/populaireauteurs.php |
 | Spreekwoorden | https://nl.wikipedia.org/wiki/Lijst_van_Nederlandse_spreekwoorden_A-E |
 | Gezegden | https://nl.wikipedia.org/wiki/Lijst_van_uitdrukkingen_en_gezegden_A-E |
