@@ -2,12 +2,46 @@ import requests
 import json
 
 from time import sleep
-from linefilter.filter import *
+import string
 
-bearer_token=open("twitterkey/basicAuth",'r').read()
-
-
+bearer_token = open("twitterkey/basicAuth",'r').read().strip()
 API_URL = "https://api.twitter.com/2/"
+allowed_chars = string.ascii_lowercase
+
+
+def filterLine(line):
+	line = line.replace('.',' ')
+	line = line.replace(',',' ')
+	line = line.replace('!',' ')
+	line = line.replace('?',' ')
+
+	if "he text is licensed under" in line:
+		return ""
+
+	if "function" in line and "error" in line:
+		return ""
+
+	if "minerva" in line and "parsoid" in line:
+		return ""
+		
+	words = line.split()
+	new_words = []
+
+	for word in words:
+		if word == 'rt': # twitter thing
+			continue
+		isCleanWord = True
+		for x in word.lower():
+			if x not in allowed_chars:
+				isCleanWord = False
+				break
+		if isCleanWord:
+			new_words.append(word)
+
+	if len(new_words) < 3:
+		return ""
+
+	return ' '.join(new_words)
 
 def buildAPIURL(endpoint):
 	return "%s%s" % (API_URL,endpoint)

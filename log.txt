@@ -53,7 +53,7 @@ XML-bestand met namen:
 http://www.naamkunde.net/?page_id=293
 
 
---------------------------------------- Creating a passive password list
+--------------------------------------- Creating a passive password list for a password policy
 
 From weakpass.com
 	(donated 100 bucks, you should too)
@@ -75,35 +75,16 @@ Compressed: 567M, nice
 
 Normally I would have to go through 121.84 (all three wordlists), but now only 2.2G, nice. And 567M can quickly be shared, so that's also neat.
 
-So now I have:
-	- A massive common/weak-password wordlist with passwords that fit the policy
+---------------------------------- Masks
 
-	- Custom hashcat cracking rules that fit the policy for:
-		- A massive Dutch wordlist
-		- Basic Dutch wordlists
-		- A custom wordlist for the customer
-			- Self-typed
-			- Scraped from the website
+To filter:
+https://blog.netspi.com/wp-content/uploads/2016/01/2015-Top40.hcmask
+https://raw.githubusercontent.com/trustedsec/hate_crack/master/masks/pathwell.hcmask
+https://raw.githubusercontent.com/hashcat/hashcat/master/masks/8char-1l-1u-1d-1s-compliant.hcmask
+https://raw.githubusercontent.com/hashcat/hashcat/master/masks/8char-1l-1u-1d-1s-noncompliant.hcmask
 
-Attack plan:
-	- Run custom weak password wordlist
-		(quick)
-	- Run custom basic rules for Dutch wordlist + custom wordlist
-		(quick)
-	- One pass with basic Dutch wordlists but with large hashcat rules (T0xic, hobo, nsa, etc)
-		(quick)
-	- One pass with hashcat mask ?U?l?l?l?l?l?d?s
-		(slower)
-	- Combinations of common Dutch words and custom company list + basic custom rules
-		(quick)
-	- One pass with hashcat mask ?U?l?l?l?l?l?d?d?s
-		(slow)
-	- One pass with normal large cracking wordlist
-		(quick)
-		When cracking, I would like to make one pass with a normal cracking wordlist to check if some users managed to create passwords that don't fit the policy
-	- One pass with massive Dutch list + custom company wordlist + large hashcat rules
-		(slower)
-	- One pass with English wordlist + large hashcat rules
-		(slower)
+filter:
+https://github.com/hashcat/hashcat/blob/master/masks/rockyou-7-2592000.hcmask
 
-
+ultimate:
+https://github.com/hashcat/hashcat/blob/master/masks/hashcat-default.hcmask
