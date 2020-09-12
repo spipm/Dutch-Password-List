@@ -50,3 +50,4 @@ From https://stackoverflow.com/questions/23699919/regular-expression-for-passwor
 | Spreekwoorden | https://nl.wikipedia.org/wiki/Lijst_van_Nederlandse_spreekwoorden_A-E |
 | Gezegden | https://nl.wikipedia.org/wiki/Lijst_van_uitdrukkingen_en_gezegden_A-E |
 | Straatnamen | https://www.kadaster.nl/zakelijk/producten/adressen-en-gebouwen/bag-compact |
+| Science | http://www.jbonneau.com/doc/BS12-USEC-passphrase_linguistics.pdf |
