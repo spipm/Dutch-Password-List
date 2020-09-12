@@ -41,7 +41,7 @@ From https://stackoverflow.com/questions/23699919/regular-expression-for-passwor
 
 ### Todo
 
-* Create markov chains for passphrases
+* Create more/better markov chains for passphrases
 * Make list of populair sentences (quotes, etc)
 
 | Thing        | Link           |
