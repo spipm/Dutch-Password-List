@@ -150,6 +150,7 @@ bankzaken
 bar
 base
 basis
+batterij
 bed
 bedden
 bedekken
