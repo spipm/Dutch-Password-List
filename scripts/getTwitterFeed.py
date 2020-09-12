@@ -15,26 +15,20 @@ def filterLine(line):
 	line = line.replace('!',' ')
 	line = line.replace('?',' ')
 
-	if "he text is licensed under" in line:
-		return ""
-
-	if "function" in line and "error" in line:
-		return ""
-
-	if "minerva" in line and "parsoid" in line:
-		return ""
-		
 	words = line.split()
 	new_words = []
 
 	for word in words:
+
 		if word == 'rt': # twitter thing
 			continue
+		
 		isCleanWord = True
 		for x in word.lower():
 			if x not in allowed_chars:
 				isCleanWord = False
 				break
+		
 		if isCleanWord:
 			new_words.append(word)
 
