@@ -1,0 +1,8 @@
+# Remove spaces, uppercase words
+E @ 
+# Replace spaces with dot, uppercase words
+E s .
+# Remove spaces
+@ 
+# Just replace space with dot
+s .

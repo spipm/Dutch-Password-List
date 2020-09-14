@@ -1,7 +1,7 @@
-## Spip's 300 hashcat cracking rules, 2020
-## 	
-## 	- Combination of best64, nsa64, hobo64 and some custom rules
-##  - Added current year
+##	Spip's 300 hashcat cracking rules, 2020
+##
+##	- Combination of best64, nsa64, hobo64 and some custom rules
+##	- Added current year
 ##	- Added Dutch verkleinwoorden: -pie, -tje, -etje, -pje, -kje en -je 
 ##
 $!
