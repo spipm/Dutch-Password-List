@@ -1,0 +1,13 @@
+##	- Dutch verkleinwoorden: -tje, -[last char]etje, -je
+##  - Dutch vergrootwoorden: -s
+##  - Dutch whatever -e is called
+# "stoeltje"
+$t $j $e
+# "biggetje"
+Z1 $e $t $j $e
+# "handje"
+$j $e
+# "betere"
+$e
+# "scenarios"
+$s
