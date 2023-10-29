@@ -8,7 +8,7 @@ Spip's custom Dutch wordlists! It includes:
 
 ### Updates
 
-* *29 oct '23* parsed Dutch sayings from Reddit using the Reddit API, parsed with OpenAI, did some manual filtering and translations.
+* *29 oct '23* parsed Dutch sayings from Reddit using the Reddit API, parsed comments with OpenAI, did some manual filtering and translations. OpenAI tried to do spell checking, so some might be mis-translated. 
 
 ### Sources
 
