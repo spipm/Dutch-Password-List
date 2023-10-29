@@ -6,11 +6,16 @@ Spip's custom Dutch wordlists! It includes:
 * A collection of best cracking rules and masks for hashcat
 
 
+### Updates
+
+* *29 oct '23* parsed Dutch sayings from Reddit using the Reddit API, parsed with OpenAI, did some manual filtering and translations.
+
 ### Sources
 
 | Thing        | Link           |
 | ------------- |-------------|
 | Twitter | See script |
+| Sayings | https://www.reddit.com/r/nederlands/comments/17i96az/wat_vinden_jullie_een_leuk_spreekwoordgezegde/ |
 | Wikipedia | https://wiki.kiwix.org/wiki/Content_in_all_languages |
 | First names | http://www.naamkunde.net/?page_id=293 |
 | Last names | https://github.com/digitalheir/family-names-in-the-netherlands |
