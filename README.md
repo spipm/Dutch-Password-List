@@ -5,6 +5,9 @@ Spip's custom Dutch wordlists! It includes:
 * Dutch wordlists! Massive lists scraped from Wikipedia, dictionaries, twitter, the bible, and then some
 * A collection of best cracking rules and masks for hashcat
 
+## Usage
+
+See [this issue](https://github.com/spipm/Dutch-Password-List/issues/1).
 
 ### Updates
 
