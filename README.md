@@ -1,5 +1,7 @@
 # Dutch cracking list repo
 
+(migrated to https://codeberg.org/spipm/Dutch-Password-List)
+
 Spip's custom Dutch wordlists! It includes:
 
 * Dutch wordlists! Massive lists scraped from Wikipedia, dictionaries, twitter, the bible, and then some
